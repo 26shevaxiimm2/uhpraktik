@@ -1,0 +1,220 @@
+body {
+  font-family: "Trebuchet MS";
+  background-color: #ECE8E1;
+}
+
+li {
+  list-style: none;
+   float: left;
+  
+  padding: 33px 20px;
+
+}
+
+.kop{
+  background-color:#ff7f50; 
+  padding:10px 30px;
+  color:white;
+}
+
+.header {
+  background-color: #ff7f50;
+  color:  #fff;
+  height: 90px;
+}
+.header-logo1{
+  float: left;
+  padding:0,5px;
+  border-style:solid;
+  border-width:5px;
+  border-color:#eccc68;
+  border-radius:8px;
+  margin-left:1px;
+  margin-top:1px;
+}
+.header-logo2{
+ font-size: 35px;
+ float: right;
+ padding: 20px 40px;
+ color:#ffffff;
+ background-color:#eccc68;
+ border-style:solid;
+ border-radius:8px;
+ border-color:#eccc68;
+ padding-top:13px;
+ padding-left:15px 15px;
+ border-width: 5px;
+ margin-right:5px;
+ margin-top:3px;
+}
+.header-logo2:hover{
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+.header-list li{
+  background-color:#eccc68;
+  float:left;
+  padding:3px;
+  font-size; 80px;
+  margin-top:30px;
+  margin-left:20px;
+  border-style:solid;
+  border-radius:20px;
+  display:flex;
+  position:relative;
+  justify-content:space-around;
+  line-height:20px;
+  border-color:#eccc68;
+  color:#ffffff:
+  
+}
+.header-list li:hover {
+  margin:10px;
+  display: inline-block;
+  background-color:#ff7f50;
+}
+
+.main{
+ background-color:#ECE8E1;
+ padding: 100px 80px;
+}
+
+.shop{
+	 background-color:white;
+ height:370px;
+ margin-top:100px;
+}
+.shop span{
+  color: red;
+}
+
+.kategori{
+ background-color:white;
+ height: 150px;
+ margin-top:100px;
+}
+
+
+.kategori-item {
+  float:left;
+  margin-right:20px;
+  border-radius:8px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.kategori-item p{
+  display:flex;
+  position:relative;
+  justify-content:space-around;
+  text-align:center;
+
+}
+.kategori-item p:hover {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+.kategori-item img:hover {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+.kategori-item img{
+ border-radius:8px;
+ border:1px solid #14236C;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+.hotsale{
+ background-color:white;
+ height: 620px;
+ margin-top:100px;
+}
+.hotsale h2{
+ color: red;
+}
+.hotsale-item {
+ margin-right:30px;
+ float:left;
+}
+.hotsale-item img{
+ border-radius:8px;
+ border:1px solid #14236C;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width:250px;
+ height:200px;
+}
+
+.hotsale-item p{
+ font-size: 24px;
+ margin-top:30px;
+ background-color:Red;
+ color:#ffff;
+ border: 2px;
+ border-color:black;
+ border-radius:8px;
+text-align:center;
+}
+
+.hotsale-item p:hover {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+.hotsale-item img:hover {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+
+
+.INFO {
+ background-color:white;
+ height: 250px;
+}
+.INFO h1{
+font-size:20px;
+color:black;
+}
+.INFO h2{
+font-size:14px;
+color:black;
+}
+.INFO h3{
+font-size:20px;
+color:black;
+}
+.INFO h4{
+font-size:14px;
+color:black;
+}	
+
+.footer {
+ background-color: #ff7f50;
+ color:#fff;
+ height: 120px;
+ padding: 40px;
+ margin-top:auto;
+ margin-bottom:auto;
+ float:middle;
+}
+.footer-logo{
+font-size:120px;
+float:left;
+}
+.footer-copyright{
+float: center;
+text-align: center;
+padding-top: 50px;
+color:white;
+}
+.footer-list{
+float:right;
+}
+.footer-list li{
+padding-bottom:0px;
